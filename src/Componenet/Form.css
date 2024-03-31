@@ -36,6 +36,10 @@
     border: 1px solid #bebebe;
     border-radius: 10px;
     padding-bottom: 10px;
+    @media (max-width: 950px) {
+        width: 100%;
+        
+    }
    
     & .form-heading{
         text-align: center;
