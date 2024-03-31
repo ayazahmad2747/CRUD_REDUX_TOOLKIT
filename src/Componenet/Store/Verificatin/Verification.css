@@ -22,7 +22,7 @@
     background: transparent;
     @media (max-width : 600px) {
       width: 90%;
-      height: 70vh;
+      height: 60vh;
     }
   }
   .s_heading{
