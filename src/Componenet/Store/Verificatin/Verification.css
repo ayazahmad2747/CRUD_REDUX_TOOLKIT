@@ -20,11 +20,17 @@
     box-shadow: 0px 5px 5px 5px rgb(138, 134, 134);
     justify-content: center;
     background: transparent;
+    @media (max-width : 600px) {
+      width: 90%;
+    }
   }
   .s_heading{
     font-family: sans-serif;
     font-size: 30px;
     font-weight: 600;
+    @media (max-width : 600px) {
+      font-size: 24px;
+    }
   }
   .s_input{
     width: 60%;
@@ -37,6 +43,10 @@
     border: none;
     border-bottom: 1px solid rgb(190, 186, 186);
     outline: none;
+    @media (max-width : 600px) {
+      width: 90%;
+      font-size: 13px;
+    }
   
   }
   .label{
